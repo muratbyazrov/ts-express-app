@@ -1,0 +1,18 @@
+[
+  {
+    "id": 100,
+    "name": "test1",
+    "email": "test@yan.ru",
+    "enabled": false,
+    "password": "qwerty",
+    "token": "super-token"
+  },
+  {
+    "id": 200,
+    "name": "test10",
+    "email": "test10@yan.ru",
+    "enabled": false,
+    "password": "123456789",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAwLCJpYXQiOjE2MDA0Mjk2MTgsImV4cCI6MTYwMDQ0NDAxOH0.Ih-6UNcPdExUW29oRPYSccRKl6xzhnS2WZwHqy6z8Xw"
+  }
+]
