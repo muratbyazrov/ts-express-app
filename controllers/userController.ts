@@ -17,6 +17,7 @@ export default class userController {
     const { id, name, email, enabled, password } = req.body;
     const updateElement = data.find(item => item.id == userId);
     this.updateArr(updateElement, { id, name, email, enabled, password }, res)
+    console.log()
   }
 
   // принимает элемент, перезаписывает его свойства, обновляет массив данных и передает массив методу updateData
@@ -68,7 +69,7 @@ export default class userController {
           const token = jwt.sign({id: user.id}, 'token-key', { expiresIn: 3600*4 });
           user.token = token;
           this.updateArr(user, { id, name, email, enabled, password, token }, res)
-          res.send({message: 'Успешная Авторизация'});
+          res.send({message: 'Успешная Авторизация', token});
         } else { // если пароль неверный, отправлям ошибку
           res.status(401).send({message: 'Неправильные почта или пароль'})
         }
