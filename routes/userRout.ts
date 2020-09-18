@@ -2,7 +2,6 @@ import {Router} from 'express';
 
 export const userRout = Router(); // используется в app.ts
 import Middleware from '../middleware/middleware';
-
 import userController from '../controllers/userController';
 
 userRout.get('/',

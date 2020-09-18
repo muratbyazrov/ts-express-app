@@ -23,6 +23,11 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600430935014</updated>
-      <workItem from="1600430936091" duration="3033000" />
+      <workItem from="1600430936091" duration="10719000" />
     </task>
     <servers />
   </component>
@@ -43,5 +48,11 @@
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="487" width="785" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600439179485">
+      <screen x="72" y="159" width="1848" height="1053" />
+    </state>
+    <state x="598" y="487" width="785" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.159.1848.1053/1920.0.1920.1080@72.159.1848.1053" timestamp="1600439179485" />
   </component>
 </project>

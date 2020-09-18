@@ -1,1 +1,18 @@
-[{"id":100,"name":"test1","email":"test@yan.ru","enabled":false,"password":"qwerty","token":"super-token"},{"id":200,"name":"test10","email":"test10@yan.ru","enabled":false,"password":"123456789","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAwLCJpYXQiOjE2MDA0MzIwNTEsImV4cCI6MTYwMDQ0NjQ1MX0.YaqPlZJGHthY594jUOeZsbZ7qbeydeD1KTnouIzeJyA"}]
+[
+  {
+    "id": 100,
+    "name": "test1",
+    "email": "test@yan.ru",
+    "enabled": false,
+    "password": "qwerty",
+    "token": "super-token"
+  },
+  {
+    "id": 200,
+    "name": "test10",
+    "email": "test10@yan.ru",
+    "enabled": false,
+    "password": "123456789",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAwLCJpYXQiOjE2MDA0MzIwNTEsImV4cCI6MTYwMDQ0NjQ1MX0.YaqPlZJGHthY594jUOeZsbZ7qbeydeD1KTnouIzeJyA"
+  }
+]

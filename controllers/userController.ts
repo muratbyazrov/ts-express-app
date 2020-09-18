@@ -1,5 +1,3 @@
-import {response} from "express";
-
 const data = require('../data/user.json'); // доступ к users.json
 const fs = require('fs'); // модуль для работы с файлами
 const jwt = require('jsonwebtoken'); // моуль для создания токенов
