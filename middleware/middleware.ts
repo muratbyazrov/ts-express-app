@@ -1,10 +1,12 @@
 const data = require('../data/user.json'); // доступ к users.json
 
+
 export default class Middleware {
   // выводит время запроса в консоль
   static logDate(req, res, next){
   const date = new Date();
-    console.log(`Время обработки ${req.method}-запроса: ${date}`)
+    // console.timeEnd('Watcher');
+    // console.log(`Время обработки ${req.method}-запроса: ${time}`);
     next();
   }
 

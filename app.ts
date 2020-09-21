@@ -2,8 +2,8 @@ const express = require('express'); // подключили экспресс
 
 const bodyParser = require('body-parser'); // объединяет приходящие пакеты
 
-import { userRout } from './routes/userRout' // импортировали рут
-import { fileRout } from './routes/fileRout' // импортировали рут
+import { userRout } from './routes/User.Rout' // импортировали рут
+import { fileRout } from './routes/File.Rout' // импортировали рут
 
 const app = express(); // Создали приложение на express
 

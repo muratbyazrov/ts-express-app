@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4edeae63-4831-4949-8c2c-858b52406d50" name="Default Changelist" comment="" />
+    <list default="true" id="4edeae63-4831-4949-8c2c-858b52406d50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/fileController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/File.Controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/User.Controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/fileRout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes/File.Rout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/userRout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes/User.Rout.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hgRpvsR8YLmZbJH2twrAWYLTln" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600430935014</updated>
-      <workItem from="1600430936091" duration="10719000" />
+      <workItem from="1600430936091" duration="12348000" />
+      <workItem from="1600672400453" duration="4366000" />
     </task>
     <servers />
   </component>
@@ -49,10 +84,29 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="598" y="487" width="785" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600439179485">
       <screen x="72" y="159" width="1848" height="1053" />
     </state>
     <state x="598" y="487" width="785" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.159.1848.1053/1920.0.1920.1080@72.159.1848.1053" timestamp="1600439179485" />
+    <state x="691" y="420" width="618" height="606" key="find.popup" timestamp="1600674452625">
+      <screen x="72" y="159" width="1848" height="1053" />
+    </state>
+    <state x="691" y="420" width="618" height="606" key="find.popup/72.159.1848.1053/1920.0.1920.1080@72.159.1848.1053" timestamp="1600674452625" />
+    <state x="659" y="391" width="672" height="678" key="search.everywhere.popup" timestamp="1600672958158">
+      <screen x="72" y="159" width="1848" height="1053" />
+    </state>
+    <state x="659" y="391" width="672" height="678" key="search.everywhere.popup/72.159.1848.1053/1920.0.1920.1080@72.159.1848.1053" timestamp="1600672958158" />
   </component>
 </project>
