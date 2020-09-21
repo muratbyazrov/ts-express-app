@@ -1,7 +1,7 @@
 export default class FileController {
     static upload(req, res) {
-        console.log(req.file)
-        console.log('Загружено');
+        res.send({message: `файл "${req.file.originalname}" благополучно загружен`})
+        console.log(req.file.originalname)
     }
 
     static download(req, res) {

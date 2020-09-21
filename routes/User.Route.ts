@@ -1,10 +1,10 @@
 import {Router} from 'express';
 
-export const userRout = Router(); // используется в app.ts
+export const userRoute = Router(); // используется в app.ts
 import Middleware from '../middleware/middleware';
 import UserController from '../controllers/User.Controller';
 
-userRout.get('/',
+userRoute.get('/',
     (req, res, next) => {
         console.time('Watcher')
         next();
@@ -14,7 +14,7 @@ userRout.get('/',
         console.timeEnd('Watcher');
     });
 
-userRout.post('/',
+userRoute.post('/',
     (req, res, next) => {
         console.time('Watcher')
         next();
@@ -24,7 +24,7 @@ userRout.post('/',
         console.timeEnd('Watcher');
     });
 
-userRout.put('/:id',
+userRoute.put('/:id',
     (req, res, next) => {
         console.time('Watcher')
         next();
@@ -38,7 +38,7 @@ userRout.put('/:id',
     }
 );
 
-userRout.post('/login',
+userRoute.post('/login',
     (req, res, next) => {
         console.time('Watcher')
         next();

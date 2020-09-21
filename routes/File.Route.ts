@@ -4,7 +4,7 @@ const {base64encode, base64decode} = require('nodejs-base64'); // для сох�
 import {Router} from 'express';
 import FileController from "../controllers/File.Controller";
 
-export const fileRout = Router(); // используется в app.ts
+export const fileRoute = Router(); // используется в app.ts
 
 
 const storageConfig = multer.diskStorage({ // конфигурация загружаемого файла
@@ -16,7 +16,7 @@ const storageConfig = multer.diskStorage({ // конфигурация загр�
     }
 });
 
-fileRout.post('/',
+fileRoute.post('/',
     (req, res, next) => {
         console.time('Watcher');
         next();
@@ -28,7 +28,7 @@ fileRout.post('/',
     });
 
 
-fileRout.get('/:fileName',
+fileRoute.get('/:fileName',
     (req, res, next) => {
         console.time('Watcher');
         next();
